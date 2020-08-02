@@ -1,0 +1,197 @@
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+
+}
+
+a:hover
+{
+	color: green;
+}
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: black;
+	
+	padding: 0px 5%;
+}
+nav ul
+{
+	display: flex;
+}
+
+nav ul li a
+{
+	margin: 40px;
+	font-family: "Druk text", "open sans", sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.active{
+	padding: 0px 5px 0px;
+
+}
+
+img
+{
+	height: 600px;
+	width: 1000px;
+}
+
+.container
+{
+	margin-top: 40px;
+}
+
+.row
+{
+	margin-top: 50px;
+}
+
+ p
+{
+	color: grey;
+	font-size: 13px;
+}
+
+h2
+{
+	background-color: rgb(116, 184, 127);
+    color: white;
+    font-family: "Druk Text", "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px 0px 16px;
+    padding: 18px;
+    font-weight: bold;
+}
+.section
+{
+	width: 1100px;
+	margin-left: 400px;
+
+}
+
+.football-img
+{
+	margin-top: 2px;
+	margin-left: 380px;
+	padding: 30px 0px;
+	width: 500px;
+	height: 350px;
+}
+.col-2 .football-img
+{
+	padding: 30px;
+}
+
+.art
+{
+	margin: 0px 0px 0.87rem;
+	padding-left: 0px;
+	box-shadow: rgba(87, 87, 87, 0.16) 0px 0.18rem 037rem;
+	display: flex;
+	position: relative;
+	background: white;
+	box-sizing: inherit;
+}
+
+.image 
+{
+	height: 320px;
+	width: 500px;
+}
+
+.hordiv
+{
+	height: 320px;
+	width: 550px;
+}
+
+.box-1
+{
+	margin: 0px 50px 0px;
+	width: 1100px;
+	margin-left: 400px;
+}
+
+.footer-1
+{
+	text-align: center;
+    margin-top: 2rem;
+    background-color: rgb(116, 184, 127);
+    box-sizing: inherit;
+    display: block;
+}
+
+.submit
+{
+	max-width: 1312px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    text-align: center;
+}
+
+.Button
+{
+	background-color: rgb(255, 255, 255);
+    color: rgb(116, 184, 127);
+    font-family: "Druk Wide", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    letter-spacing: 0.12ch;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 0.5rem 1rem;
+}
+
+.socials
+{
+	max-width: 1312px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: 820px;
+    padding-top: 2px;
+    padding-bottom: 2rem;
+    
+}
+
+.fa-ul
+{
+	width: 22%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    color: white;
+    padding: 0px 0px 30px 0px;
+
+
+}
